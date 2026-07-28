@@ -1,0 +1,17 @@
+{
+  "name": "@cinatra-ai/blog-post-matcher-skill",
+  "version": "0.1.0",
+  "license": "Apache-2.0",
+  "description": "Classifies an attached resource as a finished Blog Post. Extracted from @cinatra-ai/blog-post-artifact (cinatra#2090).",
+  "type": "module",
+  "files": [
+    "skills"
+  ],
+  "cinatra": {
+    "apiVersion": "cinatra.ai/v1",
+    "kind": "skill",
+    "displayName": "Blog Post Matcher Skill",
+    "skillRole": "matcher",
+    "dependencies": []
+  }
+}
